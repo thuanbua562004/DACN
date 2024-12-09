@@ -1,0 +1,350 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important
+}
+@media (max-width: 991.98px) {
+     .hientext {
+        display: none; 
+    }
+
+    
+#hiden{
+    display: none !important;;
+}
+.fix-row{
+    display: flex;               
+    flex-wrap: wrap;             
+    margin-right: -15px;       
+    margin-left: -15px;        
+}
+.price-resphone{
+    width: 100%;
+    display:flex;
+    justify-content: end;
+}
+.trash-resphone{
+
+    width: 140px !important;
+    display:flex;
+    justify-content: end;
+}
+.text-price{
+    display: -webkit-box;          
+    -webkit-box-orient: vertical;   
+    -webkit-line-clamp:2;      
+    overflow: hidden;    
+}
+.number-resphone{
+    height: 0px !important;
+    padding: 0;
+    line-height: 50px;
+}
+/* //product detail */
+.product-resphonve{
+    width: 100%;
+}
+.fix-logo-resphone{
+    margin-right: 0 !important;
+    justify-content: center;
+    display: flex;
+}
+.show-menu{
+    display: contents !important;
+}
+.label-total {
+    position: fixed;
+    bottom:0;
+    left: 0;
+    right: 0;
+    background-color: #f8f9fa; 
+    padding: 15px;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+/* 
+body {
+    padding-bottom: 100px;
+} */
+}
+.number-resphone{
+    width: 150px;
+}
+.hover:hover {
+    transform: scale(1.1) ;
+    
+}
+.card{
+    transition: transform 0.3s ease;
+    overflow:  hidden;
+}
+ /* CSS CARD- PRODUCT */
+.card-title 
+.cart-text{
+    text-decoration: none;
+    color: #000;
+}
+.card-title {
+    display: -webkit-box;        
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;       
+    overflow: hidden;            
+    text-overflow: ellipsis;     
+    line-height: 1.5;       
+    max-height: 4.5em;          
+}
+
+/* FOOTER */
+.footer-title {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.footer-text a {
+    color: #fff !important;
+    text-decoration: none;
+}
+
+.footer-text a:hover {
+    color: #ddd;
+}
+
+footer img {
+    border-radius: 50%;
+}
+
+.css-btn{
+    color: #000000;
+    padding: 0 !important;
+    margin: 0 5px;
+    border-radius: 25px;
+    height: 25px;
+    width: 25px !important;
+    text-align: center;
+    background-color: rgb(141, 141, 141);
+    display: flex;
+    justify-content: center;
+}
+.vertical-line {
+    border-left: px solid #920404;
+    height: 100px;    
+}
+
+/* //////header */
+.navbar-nav {
+    flex-direction: row;
+}
+.navbar-collapse {
+    flex-grow: 0; 
+}
+.header-postion{
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #f8f9fa; 
+    padding: 15px;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000; 
+    margin-bottom: 100px !important
+}
+
+.navbar-toggler {
+    outline: none;
+}
+.fixed-icons {
+    position: fixed;
+    top: 80%;
+    right: 20px;
+    transform: translateY(-50%);
+    z-index: 1000;
+  }
+
+  .fixed-icons a {
+    display: block;
+    margin: 10px 0;
+    font-size: 24px;
+    color: #007bff;
+  }
+
+  .fixed-icons a:hover {
+    color: #0056b3;
+  }
+
+/* user */
+.user-profile .widget-content-area {
+    border-radius: 6px;
+}
+.widget-content-area {
+    border: 1px solid #e0e6ed;
+    box-shadow: 0 0 40px 0 rgba(94, 92, 154, 0.06);
+}
+.widget-content-area {
+    padding: 20px;
+    position: relative;
+    background-color: #fff;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: 1px solid #e0e6ed;
+    border-top: none;
+}
+.user-profile .widget-content-area .user-info {
+    margin-top: 40px;
+}
+.user-profile .widget-content-area .user-info p {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 22px;
+    color: #009688;
+}
+.user-profile .widget-content-area .edit-profile {
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    background-color: #4361ee;
+    background: linear-gradient(to right, #3cba92 0%, #0ba360 100%);
+    border-radius: 50%;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.2);
+}
+
+.user-profile .widget-content-area .edit-profile svg {
+    font-size: 17px;
+    vertical-align: middle;
+    margin-right: 0;
+    color: #e0e6ed;
+    width: 19px;
+    align-self: center;
+}
+
+.btn svg {
+    pointer-events: none;
+    height: 22px;
+    width: 22px;
+    vertical-align: middle;
+}
+.btn.btn-icon.btn-rounded {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+}
+.btn.btn-icon {
+    padding: 7.5px 9px;
+}
+.user-profile .widget-content-area .user-info img {
+    border-radius: 9px;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.2);
+}
+.user-profile .widget-content-area .user-info-list > div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.user-profile .widget-content-area .user-info-list ul.contacts-block {
+    border: none;
+    max-width: 100%;
+    margin: 30px 0 0 0;
+}
+
+.user-profile .widget-content-area .user-info-list ul.contacts-block li {
+    margin-bottom: 13px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.user-profile .widget-content-area .user-info-list ul.contacts-block li a:not(.btn) {
+    font-weight: 600;
+    font-size: 15px;
+    color: #009688;
+}
+
+.panel {
+  box-shadow: none;
+}
+.panel-heading {
+  border-bottom: 0;
+}
+.panel-title {
+  font-size: 18px;
+}
+.panel-title > small {
+  font-size: .75em;
+  color: #999999;
+}
+.panel-body *:first-child {
+  margin-top: 0;
+}
+.panel-footer {
+  border-top: 0;
+}
+
+.panel-default > .panel-heading {
+    color: #333333;
+    background-color: transparent;
+    border-color: rgba(0, 0, 0, 0.07);
+}
+
+form label {
+    color: #999999;
+    font-weight: 400;
+}
+
+.form-horizontal .form-group {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+@media (min-width: 768px) {
+  .form-horizontal .control-label {
+    text-align: right;
+    margin-bottom: 0;
+    padding-top: 7px;
+  }
+}
+
+.profile__contact-info-icon {
+    float: left;
+    font-size: 18px;
+    color: #999999;
+}
+.profile__contact-info-body {
+    overflow: hidden;
+    padding-left: 20px;
+    color: #999999;
+}
+.profile-avatar {
+  width: 200px;
+  position: relative;
+  margin: 0px auto;
+  margin-top: 196px;
+  border: 4px solid #f3f3f3;
+}
+
+.fade-enter {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  
+  .fade-enter-active {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 300ms, transform 300ms;
+  }
+  
+  .fade-exit {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .fade-exit-active {
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 300ms, transform 300ms;
+  }
+  
+
+  /* admin */
+
+
+  
