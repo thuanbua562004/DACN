@@ -1,4 +1,4 @@
-# Đồ án nhóm 1 - VAA  
+
 **Khoa Công nghệ Thông tin**  
 **Học viện Hàng không Việt Nam**  
 
@@ -6,8 +6,7 @@
 
 ## Thông tin sinh viên
 - **Vũ Văn Thuận** - Mã sinh viên: 2254810229  
-- **Nguyễn Lương Trí** - Mã sinh viên: 2254810022  
-- **Nguyễn Thị Minh Ngọc Linh** - Mã sinh viên: 2254810200  
+
 
 ---
 
