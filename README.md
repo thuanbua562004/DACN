@@ -18,4 +18,4 @@
 ---
 
 ## Hashtag liên quan
-`#VAA` `#FITVAA` `#DoAnNhom1`  
+`#VAA` `#FITVAA` 
